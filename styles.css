@@ -189,6 +189,44 @@ header {
     gap: 5px;
     z-index: 9999;
 }
+.presidentes-velha-republica {
+    background: linear-gradient(135deg, #2c2c2c, #4a4a4a);
+    border: 2px solid #cfcd3d;
+    border-radius: 12px;
+    padding: 20px;
+    color: #f5f5f5;
+    max-width: 1000px; 
+    width: 90%; 
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(207, 161, 61, 0.4);
+    overflow-wrap: break-word; 
+    word-break: normal; 
+    line-height: 1.5;
+}
+
+.presidentes-velha-republica h2 {
+    color: #e7eb19;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.presidentes-velha-republica ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.presidentes-velha-republica li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(207, 161, 61, 0.3);
+}
+
+.presidentes-velha-republica li:last-child {
+    border-bottom: none;
+}
+
+  
 
 
 
@@ -264,6 +302,20 @@ header {
         width: 80px;
         height: 80px;
         margin-top: 10px;
+    }
+    .presidentes-velha-republica {
+        padding: 15px;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(207, 161, 61, 0.3);
+    }
+
+    .presidentes-velha-republica h2 {
+        font-size: 18px;
+    }
+
+    .presidentes-velha-republica li {
+        font-size: 12px;
+        padding: 6px 0;
     }
     .clicar-dica {
         font-size: 3.5vw; 
